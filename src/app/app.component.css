@@ -1,0 +1,17 @@
+.app-content-right {
+    margin: auto;
+    float: right;    
+    width: 50%;
+    height: 300px;    
+    border: 1px solid blue;
+    padding: 1px;
+}
+
+.app-content-center {
+    margin: auto;
+    float: ccenter;    
+    width: 50%;
+    height: 300px;    
+    border: 1px solid blue;
+    padding: 1px;
+}

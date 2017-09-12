@@ -1,0 +1,26 @@
+
+
+div .form-group {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.detail-search-form {
+  margin: 20px 50px 30px 20px;  /* top right bottom left  */
+}
+
+.form-group .input {
+  height: 8px;
+}
+
+/*
+.form-group .label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+
+*/
