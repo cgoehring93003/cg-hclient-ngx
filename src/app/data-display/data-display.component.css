@@ -14,6 +14,21 @@ div .form-group {
   height: 8px;
 }
 
+.flex-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.flex-equi-cell {
+  flex: 1;
+}
+
+.main-form-cell {
+  height: 300px;
+}
+
+
+
 /*
 .form-group .label {
   margin-top: 0px;

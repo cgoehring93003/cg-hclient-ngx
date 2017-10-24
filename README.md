@@ -1,6 +1,15 @@
 # Hclient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+This project was an early prototype to try out the newer http client (HttpClient) that was new for 4.3.  It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+
+
+It has a dependency on a simplistic back-end on an express server that returns a list of names like this:
+
+[{"id":"1","firstName":"John","lastName":"Doe","city":"Boston","state":"MA","zip":"02111","dogName":"Fido","fishName":"Bubbles","carBrand":"Ford"},{"id":"2","firstName":"Anna","lastName":"Smith","city":"Pittsburgh","state":"PA","zip":"15202","dogName":"eFifi","fishName":"Tad","carBrand":"Chevy"},{"id":"3","firstName":"Dave","lastName":"Reynolds","city":"Oklahoma City","state":"OK","zip":"73102","dogName":"Rambo","fishName":"Bubbles","carBrand":"Ford"},{"id":"4","firstName":"Annabelle","lastName":"Jones","city":"Dayton","state":"OH","zip":"45390","dogName":"Jinx","fishName":"Tad","carBrand":"Chevy"},{"id":"5","firstName":"Rick","lastName":"Thompson","city":"Latrobe","state":"PA","zip":"15650","dogName":"Pepe","fishName":"Gil","carBrand":"Ford"},{"id":"6","firstName":"Ray","lastName":"Johnson","city":"Phoenix","state":"AZ","zip":"85003","dogName":"Tag","fishName":"Ricky","carBrand":"Chevy"},{"id":"7","firstName":"William","lastName":"Clinton","city":"Atlanta","state":"GA","zip":"30303","dogName":"Rover","fishName":"Darby","carBrand":"Ford"},{"id":"8","firstName":"Melissa","lastName":"Smith","city":"Detroit","state":"MI","zip":"48204","dogName":"felix","fishName":"Sponge Bob","carBrand":"Chevy"},{"id":"9","firstName":"Peter","lastName":"Jones","city":"Fresno","state":"CA","zip":"93702","dogName":"Fufu","fishName":"Flipper","carBrand":"VW"}]
+
+The back-end is not included in the repository.  Moved on to work on the Rendezvous project.
+
+the intent here was to try out the HttpClient and a bit of the latest forms in angular 4.  
 
 ## Development server
 

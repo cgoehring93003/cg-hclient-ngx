@@ -52,9 +52,6 @@ export class DataDisplayComponent implements OnInit {
     console.log('mySubmit');
   };
 
-  //setit(obj) {
-  //  this.empdata = obj;
-  //}
 
   onSubmitSearch() {
     var searchBox = (<HTMLInputElement>document.getElementById("searchOnNameOrID")); //.value;
